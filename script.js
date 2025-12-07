@@ -227,9 +227,9 @@ function startTypewriter() {
 
 Happy Birthday!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, Semoga kamu bisa lulus akabri pada tahun yang sudah kamu tuliskan suatu saat nanti, Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
+Terima kasih udah jadi "just friend" aku yang paling berharga. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya ga males-malesan lagi dong (walaupun kadang di lakuin sih, isokei tapi jangan di ulangin lagi).
 
 I love you so much! 💕`;
     
@@ -266,7 +266,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, Semoga kamu bisa lulus akabri pada tahun yang sudah kamu tuliskan suatu saat nanti, Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi "just friend" aku yang paling berharga. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya ga males-malesan lagi dong (walaupun kadang di lakuin sih, isokei tapi jangan di ulangin lagi).<br><br>I love you so much! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -326,7 +326,7 @@ function startPhotoShow() {
             image: './images/photo1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
+            text: 'Laksamana photos 🎂',
             image: './images/photo2.jpg'
         },
         {
@@ -334,7 +334,7 @@ function startPhotoShow() {
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'Haflaa photos ❤️',
             image: './images/photo4.jpg'
         },
         {
@@ -342,7 +342,7 @@ function startPhotoShow() {
             image: './images/photo5.jpg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'Laksamana children 😂',
             image: './images/photo6.jpg'
         },
         {
@@ -616,15 +616,15 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
+            embedUrl: 'https://open.spotify.com/playlist/32JqLVkWVzY3bjNIAIuoYm?si=z98mFoLPQq609wgcNi3edQ',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Lagu fav kamu yang aku tau 😚❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
+            embedUrl: 'https://open.spotify.com/track/2OxvanM5m1Na9OVlXyXmUp?si=cicelXGDR5WGL80h3beP7w',
             name: 'Happy Memories',
-            description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
+            description: 'Mungkin kamu klo denger lagu ini mengingatkan tentang aku🌟'
         }
     };
     
