@@ -616,13 +616,13 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/playlist/32JqLVkWVzY3bjNIAIuoYm?si=z98mFoLPQq609wgcNi3edQ',
+            embedUrl: 'https://open.spotify.com/playlist/32JqLVkWVzY3bjNIAIuoYm?si=Nvg1JRu_RS6FDs-Q5PTJww&pt=e3eb6223e8d546e243d64a1362273f16&pi=atgDTOdOT2anf',
             name: 'Love Songs Collection',
             description: 'Lagu fav kamu yang aku tau 😚❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/track/2OxvanM5m1Na9OVlXyXmUp?si=cicelXGDR5WGL80h3beP7w',
+            embedUrl: 'https://open.spotify.com/playlist/6dUJxJ5AyWgThyL5qzkeeZ?si=T_slqwVMQX24qLxAeiruLg&pt=0f7d6de806ac2c605afd586f19e07211',
             name: 'Happy Memories',
             description: 'Lagu yang mungkin mengingatkan tentang aku🌟'
         }
